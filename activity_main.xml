@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/showText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="DATE"
+        android:textAlignment="center"
+        android:textColor="#E60552"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showText"
+        android:layout_marginTop="20dp"
+        android:text="Show Dialog of date"
+        android:textColor="#F4BB0F" />
+
+    <TextView
+        android:id="@+id/showText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="TIME"
+        android:layout_below="@+id/button"
+        android:textAlignment="center"
+        android:textColor="#E60552"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showText1"
+        android:layout_marginTop="20dp"
+        android:text="Show Dialog of time"
+        android:textColor="#F4BB0F" />
+</RelativeLayout>
